@@ -24,8 +24,8 @@ function setup() {
   frameRate(24);
   background(0);
   rectMode(CENTER);
-  //noCursor(); // ocultar el cursor
-  noStroke(); // formar sin líneas ni trazos
+  noCursor(); // ocultar el cursor
+  noStroke(); // formas sin líneas ni trazos
 }
 
 function draw() {
@@ -111,7 +111,7 @@ function draw() {
   fill(100, 66, 129);
   circle(mouseX - 20, mouseY - 20, 20);
 
-  // Primer Círculo (centro)
-  fill(129, 130, 116);
+  // Círculo (centro)
+  fill(242, 234, 223);
   circle(mouseX - 0, mouseY - 0, 30);
 }
