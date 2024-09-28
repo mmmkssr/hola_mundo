@@ -21,7 +21,7 @@
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  frameRate(24);
+  //frameRate(24);
   background(0);
   rectMode(CENTER);
   noCursor(); // ocultar el cursor
@@ -29,7 +29,7 @@ function setup() {
 }
 
 function draw() {
-  background(234, random(0, 200), 227);
+  background(234, random(0, 200), 227, 50);
 
   // Primer Círculo
   fill(213, 192, 212);
